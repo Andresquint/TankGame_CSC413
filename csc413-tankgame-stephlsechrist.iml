@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/csc413-tankgame-stephlsechrist/out" />
+    <output-test url="file://$MODULE_DIR$/csc413-tankgame-stephlsechrist/out/test" />
+    <content url="file://$MODULE_DIR$/csc413-tankgame-stephlsechrist">
+      <sourceFolder url="file://$MODULE_DIR$/csc413-tankgame-stephlsechrist/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/csc413-tankgame-stephlsechrist/src/resources" type="java-resource" />
+    </content>
+    <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

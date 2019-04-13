@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TankGame.iml" filepath="$PROJECT_DIR$/TankGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/csc413-tankgame-stephlsechrist.iml" filepath="$PROJECT_DIR$/csc413-tankgame-stephlsechrist.iml" />
     </modules>
   </component>
 </project>

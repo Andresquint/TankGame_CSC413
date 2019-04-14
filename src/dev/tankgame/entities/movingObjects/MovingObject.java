@@ -5,10 +5,8 @@ import dev.tankgame.entities.Entity;
 
 public abstract class MovingObject extends Entity {
 
-    public static final int DEFAULT_HEALTH = 1;
 //    public static final float DEFAULT_SPEED = 3.0f;
 
-    protected int health;
     protected float speed;
     protected int vx, vy, angle;
 
@@ -20,7 +18,6 @@ public abstract class MovingObject extends Entity {
         this.vx = vx;
         this.vy = vy;
         this.angle = angle;
-        health = DEFAULT_HEALTH;
         speed = DEFAULT_SPEED;
     }
 
@@ -39,6 +36,7 @@ public abstract class MovingObject extends Entity {
 
         vx = (int) Math.round(DEFAULT_SPEED * Math.cos(Math.toRadians(angle)));
         vy = (int) Math.round(DEFAULT_SPEED * Math.sin(Math.toRadians(angle)));
+
         if (!checkEntityCollisions(vx, vy)) {
             int leftX = (int) (x + bounds.x - vx) / 64;
             int rightX = (int) (x + bounds.x + bounds.width - vx) / 64;
@@ -101,16 +99,20 @@ public abstract class MovingObject extends Entity {
             x = 64;
             return true;
         }
+
+        // stutters, but fix later
         if (x >= 1856 - 64) {
-            x = 1856 - 64;
+            x = 1856 - 65;
             return true;
         }
         if (y < 64) {
             y = 64;
             return true;
         }
+
+        // stutters, but fix later
         if (y >= 1216 - 64) {
-            y = 1216 - 64;
+            y = 1216 - 65;
             return true;
         }
         return false;
@@ -150,5 +152,10 @@ public abstract class MovingObject extends Entity {
 
     public void setvy (int vy) {
         this.vy = vy;
+    }
+
+    @Override
+    public void die() {
+
     }
 }

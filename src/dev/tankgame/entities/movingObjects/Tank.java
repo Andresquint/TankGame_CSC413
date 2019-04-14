@@ -31,6 +31,38 @@ public class Tank extends MovingObject {
         getInput();
 //        move();
         handler.getGameCam().centerOnEntity(this);
+        checkAttacks();
+    }
+
+    @Override
+    public void render(Graphics g) {
+        AffineTransform rotation = AffineTransform.getTranslateInstance((x-handler.getGameCam().getxOffset()), (y - handler.getGameCam().getyOffset()));
+        rotation.rotate(Math.toRadians(angle), Assets.tank.getWidth() / 2.0, Assets.tank.getHeight() / 2.0);
+        Graphics2D g2d = (Graphics2D) g;
+        // drawImage() from Graphics2D:
+        // drawImage(Image img, AffineTransform xform, ImageObserver obs)
+        g2d.drawImage(Assets.tank, rotation, null);
+        g.setColor(Color.white);
+        g.drawRect((int) (x + bounds.x - handler.getGameCam().getxOffset()),
+                (int) (y + bounds.y - handler.getGameCam().getyOffset()),
+                bounds.width, bounds.height);
+    }
+
+    private void checkAttacks(){
+        Rectangle collisionBox = getCollisionBounds(0,0);
+        Rectangle attackRec = new Rectangle();
+        int attackRecSize = 20;
+        attackRec.width = attackRecSize;
+        attackRec.height = attackRecSize;
+
+        // need to store direction tank is facin
+        // (utilize angles)
+        // if statements saying which direction would go under
+        // this if statement
+//        if(handler.getTankControl1().space){
+//            attackRec.x = collisionBox.x + collisionBox.width/2 - attackRecSize/2;
+//            attackRec.y = collisionBox.y - attackRecSize;
+//        }
     }
 
     private void getInput(){
@@ -70,19 +102,10 @@ public class Tank extends MovingObject {
     }
 
     @Override
-    public void render(Graphics g) {
-        AffineTransform rotation = AffineTransform.getTranslateInstance((x-handler.getGameCam().getxOffset()), (y - handler.getGameCam().getyOffset()));
-        rotation.rotate(Math.toRadians(angle), Assets.tank.getWidth() / 2.0, Assets.tank.getHeight() / 2.0);
-        Graphics2D g2d = (Graphics2D) g;
-        // drawImage() from Graphics2D:
-        // drawImage(Image img, AffineTransform xform, ImageObserver obs)
-        g2d.drawImage(Assets.tank, rotation, null);
-        g.setColor(Color.white);
-        g.drawRect((int) (x + bounds.x - handler.getGameCam().getxOffset()),
-                (int) (y + bounds.y - handler.getGameCam().getyOffset()),
-                bounds.width, bounds.height);
+    public void die() {
+
     }
-//
+    //
 //    private void rotateLeft() {
 //        this.angle -= this.ROTATION_SPEED;
 //    }

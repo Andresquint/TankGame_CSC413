@@ -8,6 +8,7 @@ package dev.tankgame.input;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.security.Key;
 
 
 /**
@@ -18,7 +19,7 @@ public class TankControl implements KeyListener {
     private boolean[] keys;
 //    private static int[] keys;
     public boolean up1, down1, left1, right1,
-                    up2, down2, left2, right2;
+                    up2, down2, left2, right2, space, enter;
 //    public int up1, down1, left1, right1;
 
     public TankControl(){
@@ -34,6 +35,8 @@ public class TankControl implements KeyListener {
         left2 = keys[KeyEvent.VK_A];
         right1 = keys[KeyEvent.VK_RIGHT];
         right2 = keys[KeyEvent.VK_D];
+        space = keys[KeyEvent.VK_SPACE];
+        enter = keys[KeyEvent.VK_ENTER];
     }
 
     @Override

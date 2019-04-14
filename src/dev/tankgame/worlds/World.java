@@ -3,6 +3,7 @@ package dev.tankgame.worlds;
 import dev.tankgame.Handler;
 import dev.tankgame.entities.EntityManager;
 import dev.tankgame.entities.movingObjects.Tank;
+import dev.tankgame.entities.statics.LifeBoost;
 import dev.tankgame.tiles.Tile;
 import dev.tankgame.utils.Utils;
 
@@ -25,6 +26,8 @@ public class World {
         entityManager.getTank1().setY(spawnY1);
         entityManager.getTank2().setX(spawnX2);
         entityManager.getTank2().setY(spawnY2);
+
+        entityManager.addEntity(new LifeBoost(handler, 100, 100));
     }
 
     public void tick(){

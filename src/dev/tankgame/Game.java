@@ -22,8 +22,8 @@ public class Game implements Runnable{
     private Graphics g;
 
     // States
-    private State gameState;
-    private State introState;
+    public State gameState;
+    public State introState;
 
     // Input
     private TankControl tc;
@@ -58,6 +58,7 @@ public class Game implements Runnable{
         gameState = new GameState(handler);
         introState = new IntroState(handler);
         State.setState(gameState);
+//        State.setState(introState);
     }
 
     private void tick(){

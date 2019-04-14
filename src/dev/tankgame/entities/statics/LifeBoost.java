@@ -27,4 +27,9 @@ public class LifeBoost extends StaticEntity {
         g.drawRect((int) (x + bounds.x), (int) (y + bounds.y),
                 bounds.width, bounds.height);
     }
+
+    @Override
+    public void die() {
+        super.die();
+    }
 }

@@ -19,4 +19,9 @@ public class StaticEntity extends Entity {
     public void render(Graphics g){
 
     }
+
+    @Override
+    public void die() {
+
+    }
 }

@@ -8,19 +8,23 @@ import java.awt.image.BufferedImage;
 
 public abstract class Entity {
 
+    public static final int DEFAULT_HEALTH = 2;
     protected Handler handler;
     protected float x;
     protected float y;
-//    protected int vx;
-//    protected int vy;
-//    protected int angle;
     protected Rectangle bounds;
+    protected boolean active = true;
+    protected int health;
+    //    protected int vx;
+    //    protected int vy;
+    //    protected int angle;
 //    private BufferedImage img;
 
     public Entity(Handler handler, float x, float y){
         this.handler = handler;
         this.x = x;
         this.y = y;
+        health = DEFAULT_HEALTH;
 
         bounds = new Rectangle(0, 0, 64, 64);
     }
@@ -39,6 +43,16 @@ public abstract class Entity {
 
     public abstract void tick();
     public abstract void render(Graphics g);
+    public abstract void die();
+
+
+    public void hurt(int amount){
+        health -= amount;
+        if(health <= 0){
+            active = false;
+            die();
+        }
+    }
 
     public boolean checkEntityCollisions(float xOffset, float yOffset){
         for (Entity e : handler.getWorld().getEntityManager().getEntities()){
@@ -70,5 +84,21 @@ public abstract class Entity {
 
     public void setY(float y) {
         this.y = y;
+    }
+
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
+
+    public int getHealth() {
+        return health;
+    }
+
+    public void setHealth(int health) {
+        this.health = health;
     }
 }

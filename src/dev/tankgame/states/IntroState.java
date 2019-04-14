@@ -13,7 +13,8 @@ public class IntroState extends State{
 
     @Override
     public void tick() {
-
+        if(handler.getTankControl1().space)
+            State.setState(handler.getGame().gameState);
     }
 
     @Override

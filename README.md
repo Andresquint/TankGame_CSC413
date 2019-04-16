@@ -9,17 +9,17 @@ I was not able to get my jar working at the state my game is in right now, but t
 
 ## Controls
 Tank1:
-up - up arrow key
-down - down arrow key
-left - left arrow key
-right - right arrow key
-shoot bullet - enter key
-
-Tank2:
-up - w
-down - s
-left - a
-right - d
-shoot bullet - space bar
-
-After starting the game, press p to play. After game is over, press escape to exit.
+up - up arrow key\
+down - down arrow key\
+left - left arrow key\
+right - right arrow key\
+shoot bullet - enter key\
+\
+Tank2:\
+up - w\
+down - s\
+left - a\
+right - d\
+shoot bullet - space bar\
+\
+After starting the game, press p to play. After game is over, press escape to exit.\

@@ -3,12 +3,10 @@ package dev.tankgame.worlds;
 import dev.tankgame.Handler;
 import dev.tankgame.entities.EntityManager;
 import dev.tankgame.entities.movingObjects.Tank;
-import dev.tankgame.entities.statics.DamageBoost;
 import dev.tankgame.entities.statics.LifeBoost;
 import dev.tankgame.entities.statics.UnbreakableWall;
 import dev.tankgame.entities.statics.Wall;
 import dev.tankgame.tiles.Tile;
-import dev.tankgame.tiles.WallTile;
 import dev.tankgame.utils.Utils;
 
 import java.awt.*;
@@ -38,7 +36,9 @@ public class World {
         entityManager.addEntity(new LifeBoost(handler, 250, 300));
         entityManager.addEntity(new LifeBoost(handler, 600, 400));
         entityManager.addEntity(new LifeBoost(handler, 1000, 800));
-        entityManager.addEntity(new DamageBoost(handler, 100, 800));
+        entityManager.addEntity(new LifeBoost(handler, 24*64, 15*64));
+
+        //        entityManager.addEntity(new DamageBoost(handler, 100, 800));
 
 
     }

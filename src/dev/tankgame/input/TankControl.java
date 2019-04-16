@@ -20,7 +20,7 @@ public class TankControl implements KeyListener {
 //    private static int[] keys;
     public boolean up1, down1, left1, right1,
                     up2, down2, left2, right2,
-                    space, enter, checkEntities, play;
+                    space, enter, play, exit;
 //    public int up1, down1, left1, right1;
 
     public TankControl(){
@@ -38,8 +38,8 @@ public class TankControl implements KeyListener {
         right2 = keys[KeyEvent.VK_D];
         space = keys[KeyEvent.VK_SPACE];
         enter = keys[KeyEvent.VK_ENTER];
-        checkEntities = keys[KeyEvent.VK_I];
         play = keys[KeyEvent.VK_P];
+        exit = keys[KeyEvent.VK_ESCAPE];
     }
 
     @Override

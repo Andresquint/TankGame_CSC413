@@ -1,7 +1,7 @@
 package dev.tankgame.entities.movingObjects;
 
 import dev.tankgame.Handler;
-import dev.tankgame.entities.Entity;
+import dev.tankgame.entities.statics.LifeBoost;
 import dev.tankgame.entities.statics.Wall;
 import dev.tankgame.graphics.Assets;
 import dev.tankgame.input.TankControl;
@@ -50,12 +50,19 @@ public class Bullet extends MovingObject {
 //        getInput();
         moveForwards();
         moveForwards();
-        if(checkEntityCollisions(vx, vy)){
-            if(getEntityCollided((float) vx, (float) vy) instanceof Wall || getEntityCollided((float) vx, (float) vy) instanceof Tank ||
-            getEntityCollided((float)vx, (float)vy) instanceof Bullet){
+        if(checkEntityCollisions(vx, vy)) {
+            if (getEntityCollided((float) vx, (float) vy) instanceof Wall || getEntityCollided((float) vx, (float) vy) instanceof Tank ||
+                    getEntityCollided((float) vx, (float) vy) instanceof Bullet) {
                 getEntityCollided((float) vx, (float) vy).hurt(1);
             }
-            handler.getWorld().getEntityManager().removeEntity((this));
+            else if (getEntityCollided((float) vx, (float) vy) instanceof LifeBoost) {
+                x += vx;
+                y += vy;
+                return;
+            }
+                handler.getWorld().getEntityManager().removeEntity((this));
+
+
         }
     }
 

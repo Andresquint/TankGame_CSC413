@@ -3,59 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="79f85419-ae7a-4f30-a0cd-366d4934991d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/entities/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/entities/Entity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/entities/EntityManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/entities/EntityManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/entities/movingObjects/MovingObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/entities/movingObjects/MovingObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/entities/movingObjects/Tank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/entities/movingObjects/Tank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/entities/statics/LifeBoost.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/entities/statics/LifeBoost.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/entities/statics/StaticEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/entities/statics/StaticEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/graphics/Assets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/graphics/Assets.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/input/TankControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/input/TankControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/states/GameState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/states/GameState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/states/IntroState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/states/IntroState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/states/OverState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/states/OverState.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/worlds/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/dev/tankgame/worlds/World.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/resources/textures/Background.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/resources/textures/Bouncing.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/resources/textures/Explosion_large.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/resources/textures/Explosion_small.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/resources/textures/Pickup.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/resources/textures/Rocket.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/resources/textures/Shell.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/resources/textures/Shield2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/resources/textures/Title.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/resources/textures/Wall1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/resources/textures/Wall2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/resources/textures/Weapon.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/resources/textures/health.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/resources/textures/health.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/resources/textures/towerDefense_tilesheet2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/resources/worlds/world1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/resources/worlds/world1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/resources/textures/game_over.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csc413-tankgame-stephlsechrist/resources/textures/game_over.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dev/tankgame/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/tankgame/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/tankgame/entities/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/tankgame/entities/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/tankgame/entities/EntityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/tankgame/entities/EntityManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/tankgame/entities/movingObjects/MovingObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/tankgame/entities/movingObjects/MovingObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/tankgame/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/tankgame/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/tankgame/entities/movingObjects/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/tankgame/entities/movingObjects/Bullet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dev/tankgame/entities/movingObjects/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/tankgame/entities/movingObjects/Tank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/tankgame/entities/statics/LifeBoost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/tankgame/entities/statics/LifeBoost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/tankgame/entities/statics/StaticEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/tankgame/entities/statics/StaticEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/tankgame/graphics/Assets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/tankgame/graphics/Assets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dev/tankgame/input/TankControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/tankgame/input/TankControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/tankgame/states/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/tankgame/states/GameState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/tankgame/states/IntroState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/tankgame/states/IntroState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/tankgame/states/OverState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/tankgame/states/OverState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/tankgame/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/tankgame/utils/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dev/tankgame/worlds/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/tankgame/worlds/World.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/textures/Background.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/textures/Bouncing.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/textures/Explosion_large.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/textures/Explosion_small.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/textures/Pickup.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/textures/Rocket.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/textures/Shell.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/textures/Shield2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/textures/Title.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/textures/Wall1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/textures/Wall2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/textures/Weapon.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/textures/health.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/textures/health.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/textures/towerDefense_tilesheet2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/textures/game_over.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/textures/game_over.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/worlds/world1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/worlds/world1.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -73,10 +35,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dev/tankgame/worlds/World.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#1326#1327#0" expanded="true" />
                 <element signature="e#1362#1363#0" expanded="true" />
                 <element signature="e#3454#3455#0" expanded="true" />
@@ -109,19 +70,75 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/worlds/world1.txt">
+        <entry file="file://$PROJECT_DIR$/src/dev/tankgame/Launcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#246#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dev/tankgame/states/OverState.java">
+        <entry file="file://$PROJECT_DIR$/src/dev/tankgame/utils/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dev/tankgame/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#4826#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#3713#3714#0" expanded="true" />
+                <element signature="e#3750#3751#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dev/tankgame/entities/movingObjects/Tank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dev/tankgame/entities/movingObjects/Bullet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#2834#2835#0" expanded="true" />
+                <element signature="e#2870#2871#0" expanded="true" />
+                <element signature="e#2897#2898#0" expanded="true" />
+                <element signature="e#2922#2923#0" expanded="true" />
+                <element signature="e#2949#2950#0" expanded="true" />
+                <element signature="e#2974#2975#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dev/tankgame/entities/statics/LifeBoost.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,49 +147,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dev/tankgame/entities/movingObjects/Tank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1194">
-              <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dev/tankgame/entities/movingObjects/Bullet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dev/tankgame/entities/statics/LifeBoost.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dev/tankgame/graphics/Assets.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dev/tankgame/entities/statics/DamageBoost.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="349">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,33 +159,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/textures/towerDefense_tilesheet.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/src/resources/worlds/world1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dev/tankgame/entities/Entity.java">
+        <entry file="file://$PROJECT_DIR$/src/dev/tankgame/entities/statics/StaticEntity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-              <folding>
-                <element signature="e#2297#2298#0" expanded="true" />
-                <element signature="e#2321#2322#0" expanded="true" />
-                <element signature="e#2354#2355#0" expanded="true" />
-                <element signature="e#2380#2381#0" expanded="true" />
-                <element signature="e#2407#2408#0" expanded="true" />
-                <element signature="e#2431#2432#0" expanded="true" />
-                <element signature="e#2464#2465#0" expanded="true" />
-                <element signature="e#2490#2491#0" expanded="true" />
-                <element signature="e#2523#2524#0" expanded="true" />
-                <element signature="e#2552#2553#0" expanded="true" />
-                <element signature="e#2597#2598#0" expanded="true" />
-                <element signature="e#2633#2634#0" expanded="true" />
-                <element signature="e#2663#2664#0" expanded="true" />
-                <element signature="e#2692#2693#0" expanded="true" />
-                <element signature="e#2733#2734#0" expanded="true" />
-                <element signature="e#2769#2770#0" expanded="true" />
-              </folding>
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -231,25 +195,27 @@
         <option value="$PROJECT_DIR$/src/dev/tankgame/items/Item.java" />
         <option value="$PROJECT_DIR$/src/dev/tankgame/entities/statics/WallTile.java" />
         <option value="$PROJECT_DIR$/src/dev/tankgame/entities/statics/UnbreakableWall.java" />
-        <option value="$PROJECT_DIR$/src/dev/tankgame/entities/statics/StaticEntity.java" />
         <option value="$PROJECT_DIR$/src/dev/tankgame/entities/movingObjects/MovingObject.java" />
         <option value="$PROJECT_DIR$/src/dev/tankgame/entities/statics/Wall.java" />
-        <option value="$PROJECT_DIR$/src/dev/tankgame/Game.java" />
-        <option value="$PROJECT_DIR$/src/dev/tankgame/input/TankControl.java" />
         <option value="$PROJECT_DIR$/src/dev/tankgame/states/IntroState.java" />
-        <option value="$PROJECT_DIR$/src/dev/tankgame/entities/movingObjects/Bullet.java" />
         <option value="$PROJECT_DIR$/src/dev/tankgame/items/ItemManager.java" />
         <option value="$PROJECT_DIR$/src/dev/tankgame/entities/EntityManager.java" />
         <option value="$PROJECT_DIR$/src/dev/tankgame/states/GameState.java" />
         <option value="$PROJECT_DIR$/src/dev/tankgame/entities/statics/MiniMap.java" />
         <option value="$PROJECT_DIR$/src/dev/tankgame/entities/Entity.java" />
-        <option value="$PROJECT_DIR$/src/resources/worlds/world1.txt" />
-        <option value="$PROJECT_DIR$/src/dev/tankgame/states/OverState.java" />
         <option value="$PROJECT_DIR$/src/dev/tankgame/graphics/Assets.java" />
-        <option value="$PROJECT_DIR$/src/dev/tankgame/worlds/World.java" />
-        <option value="$PROJECT_DIR$/src/dev/tankgame/entities/statics/DamageBoost.java" />
         <option value="$PROJECT_DIR$/src/dev/tankgame/entities/statics/LifeBoost.java" />
+        <option value="$PROJECT_DIR$/src/dev/tankgame/input/TankControl.java" />
+        <option value="$PROJECT_DIR$/src/dev/tankgame/states/OverState.java" />
+        <option value="$PROJECT_DIR$/src/dev/tankgame/entities/statics/StaticEntity.java" />
+        <option value="$PROJECT_DIR$/src/dev/tankgame/entities/statics/DamageBoost.java" />
+        <option value="$PROJECT_DIR$/src/resources/worlds/world1.txt" />
+        <option value="$PROJECT_DIR$/src/dev/tankgame/Game.java" />
+        <option value="$PROJECT_DIR$/src/dev/tankgame/worlds/World.java" />
+        <option value="$PROJECT_DIR$/src/dev/tankgame/Launcher.java" />
+        <option value="$PROJECT_DIR$/src/dev/tankgame/utils/Utils.java" />
         <option value="$PROJECT_DIR$/src/dev/tankgame/entities/movingObjects/Tank.java" />
+        <option value="$PROJECT_DIR$/src/dev/tankgame/entities/movingObjects/Bullet.java" />
       </list>
     </option>
   </component>
@@ -365,6 +331,13 @@
               <item name="csc413-tankgame-stephlsechrist" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="textures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csc413-tankgame-stephlsechrist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csc413-tankgame-stephlsechrist" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="worlds" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -376,11 +349,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555395730722" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555397753674" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -427,12 +400,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555192516107</updated>
-      <workItem from="1555192517459" duration="41332000" />
+      <workItem from="1555192517459" duration="43402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41332000" />
+    <option name="totallyTimeSpent" value="43402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -495,13 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dev/tankgame/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -575,25 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dev/tankgame/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="59" column="43" lean-forward="true" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3713#3714#0" expanded="true" />
-            <element signature="e#3750#3751#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dev/tankgame/input/TankControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dev/tankgame/states/IntroState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -601,13 +548,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dev/tankgame/Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -670,13 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dev/tankgame/entities/statics/StaticEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dev/tankgame/entities/statics/MiniMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -713,9 +646,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/textures/health.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/tankgame/graphics/Assets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/textures/towerDefense_tilesheet.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/tankgame/input/TankControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          <folding>
+            <element signature="e#1355#1356#0" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/tankgame/states/OverState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/dev/tankgame/entities/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="-255">
           <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
           <folding>
             <element signature="e#2297#2298#0" expanded="true" />
@@ -740,40 +707,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/worlds/world1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="221">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dev/tankgame/states/OverState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/textures/health.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dev/tankgame/graphics/Assets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/textures/towerDefense_tilesheet.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dev/tankgame/worlds/World.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1326#1327#0" expanded="true" />
             <element signature="e#1362#1363#0" expanded="true" />
             <element signature="e#3454#3455#0" expanded="true" />
@@ -804,9 +747,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/tankgame/entities/statics/StaticEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/tankgame/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/tankgame/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/tankgame/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#4826#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3713#3714#0" expanded="true" />
+            <element signature="e#3750#3751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/tankgame/entities/movingObjects/Tank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/tankgame/entities/movingObjects/Bullet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#2834#2835#0" expanded="true" />
+            <element signature="e#2870#2871#0" expanded="true" />
+            <element signature="e#2897#2898#0" expanded="true" />
+            <element signature="e#2922#2923#0" expanded="true" />
+            <element signature="e#2949#2950#0" expanded="true" />
+            <element signature="e#2974#2975#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/dev/tankgame/entities/statics/LifeBoost.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
+        <state relative-caret-position="203">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -816,25 +821,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dev/tankgame/entities/statics/DamageBoost.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="349">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dev/tankgame/entities/movingObjects/Bullet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dev/tankgame/entities/movingObjects/Tank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1194">
-          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -897,6 +888,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

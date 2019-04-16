@@ -4,8 +4,10 @@
 ## Student ID : 918679078
 
 This tank game was built in IntelliJ IDEA 2018.3.4 using Java version 11. 
+The current working directory relative to my github repo is /src. Main is in Launcher
 
 I was not able to get my jar working at the state my game is in right now, but the game works if you build the project in IntelliJ. Also missing from my game is split screen and minimap. Unfortunately, since I don't have a split screen, my game camera only follows one tank (tank 2). 
+
 
 ## Controls
 **Tank1:**\

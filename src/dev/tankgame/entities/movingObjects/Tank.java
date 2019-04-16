@@ -1,10 +1,7 @@
 package dev.tankgame.entities.movingObjects;
 
 import dev.tankgame.Handler;
-import dev.tankgame.entities.Entity;
-import dev.tankgame.entities.statics.DamageBoost;
 import dev.tankgame.entities.statics.LifeBoost;
-import dev.tankgame.entities.statics.Wall;
 import dev.tankgame.graphics.Assets;
 import dev.tankgame.input.TankControl;
 
@@ -52,9 +49,9 @@ public class Tank extends MovingObject {
                 handler.getWorld().getEntityManager().removeEntity(getEntityCollided((float) vx, (float) vy));
                 lifeCount++;
             }
-            if(getEntityCollided((float) vx, (float) vy) instanceof DamageBoost){
-                handler.getWorld().getEntityManager().removeEntity(getEntityCollided((float) vx, (float) vy));
-            }
+//            if(getEntityCollided((float) vx, (float) vy) instanceof DamageBoost){
+//                handler.getWorld().getEntityManager().removeEntity(getEntityCollided((float) vx, (float) vy));
+//            }
         }
     }
 

@@ -1,6 +1,5 @@
 package dev.tankgame.utils;
 
-import dev.tankgame.states.IntroState;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -12,7 +11,8 @@ public class Utils {
 
         try{
             String currentDir = System.getProperty("user.dir");
-            System.out.println(currentDir + path);
+//            System.out.println(currentDir);
+//            System.out.println(currentDir + path);
             BufferedReader br = new BufferedReader(new FileReader(currentDir + path));
 //            BufferedReader br = new BufferedReader(new FileReader(path));
             String line;

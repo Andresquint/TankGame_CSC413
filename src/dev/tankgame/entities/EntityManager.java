@@ -6,11 +6,12 @@ import dev.tankgame.entities.statics.LifeBoost;
 
 import java.awt.*;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class EntityManager {
     private Handler handler;
     private Tank tank1, tank2;
-    private LifeBoost lifeBoost;
+//    private LifeBoost lifeBoost;
     private ArrayList<Entity> entities;
 
     public EntityManager(Handler handler, Tank tank1, Tank tank2){
@@ -18,22 +19,41 @@ public class EntityManager {
         this.tank1 = tank1;
         this.tank2 = tank2;
         entities = new ArrayList<Entity>();
+//        addEntity(new LifeBoost(handler, 100, 100));
         addEntity(tank1);
         addEntity(tank2);
+
     }
 
     public void tick(){
-        for (int i = 0 ; i < entities.size(); i++){
+//        Iterator<Entity> it = entities.iterator();
+//
+//        while(it.hasNext()){
+//            Entity e = it.next();
+//            e.tick();
+//            if(!e.isActive())
+//                it.remove();
+//        }
+
+        for (int i = 0; i < entities.size(); i++){
+
             Entity e = entities.get(i);
             e.tick();
-            if(!e.isActive())
-                entities.remove(e);
         }
+
     }
 
     public void render(Graphics g){
-        for (Entity e : entities){
+        for (int i = 0; i < entities.size(); i++){
+
+            Entity e = entities.get(i);
             e.render(g);
+        }
+    }
+
+    public void removeEntity(Entity e){
+        if (entities.contains(e)) {
+            entities.remove(e);
         }
     }
 
@@ -71,5 +91,13 @@ public class EntityManager {
 
     public void setEntities(ArrayList<Entity> entities) {
         this.entities = entities;
+    }
+
+    public void printContents(){
+
+        for(int i = 0; i < entities.size(); i++){
+
+            System.out.println(entities.get(i));
+        }
     }
 }

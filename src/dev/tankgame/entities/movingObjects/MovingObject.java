@@ -10,15 +10,26 @@ public abstract class MovingObject extends Entity {
     protected float speed;
     protected int vx, vy, angle;
 
-    private final int DEFAULT_SPEED = 6;
+    protected final int DEFAULT_SPEED = 6;
     private final int ROTATION_SPEED = 4;
+    private long lastAttackTimer;
+    private long attackCooldown = 400;
+    private long attackTimer = attackCooldown;
 
-    public MovingObject(Handler handler, float x, float y, int vx, int vy, int angle){
+//    public MovingObject(Handler handler, float x, float y, int vx, int vy, int angle){
+//        super(handler, x, y);
+//        this.vx = vx;
+//        this.vy = vy;
+//        this.angle = angle;
+//        speed = DEFAULT_SPEED;
+//    }
+
+    public MovingObject(Handler handler, float x, float y, int angle){
         super(handler, x, y);
-        this.vx = vx;
-        this.vy = vy;
         this.angle = angle;
         speed = DEFAULT_SPEED;
+        health = DEFAULT_HEALTH;
+
     }
 
 //    public MovingObject(Handler handler, float x, float y, int vx, int vy, int angle) {
@@ -27,12 +38,10 @@ public abstract class MovingObject extends Entity {
 //        speed = DEFAULT_SPEED;
 //    }
 
-    public void move() {
-    }
 
     public void moveBackwards() {
-        if(checkBorder())
-            return;
+//        if(checkBorder())
+//            return;
 
         vx = (int) Math.round(DEFAULT_SPEED * Math.cos(Math.toRadians(angle)));
         vy = (int) Math.round(DEFAULT_SPEED * Math.sin(Math.toRadians(angle)));
@@ -57,25 +66,25 @@ public abstract class MovingObject extends Entity {
     }
 
     public void moveForwards() {
-        if (checkBorder())
-            return;
+//        if (checkBorder())
+//            return;
 
         vx = (int) Math.round(DEFAULT_SPEED * Math.cos(Math.toRadians(angle)));
         vy = (int) Math.round(DEFAULT_SPEED * Math.sin(Math.toRadians(angle)));
 
         if (!checkEntityCollisions(vx, vy)) {
-            int leftX = (int) (x + bounds.x + vx) / 64;
-            int rightX = (int) (x + bounds.x + bounds.width + vx) / 64;
-            int topY = (int) (y + bounds.y + vy) / 64;
-            int bottomY = (int) (y + bounds.y + bounds.height + vy) / 64;
-
-            if (!collisionWithTile(leftX, topY) &&
-                    !collisionWithTile(rightX, topY) &&
-                    !collisionWithTile(leftX, bottomY) &&
-                    !collisionWithTile(rightX, bottomY)) {
+//            int leftX = (int) (x + bounds.x + vx) / 64;
+//            int rightX = (int) (x + bounds.x + bounds.width + vx) / 64;
+//            int topY = (int) (y + bounds.y + vy) / 64;
+//            int bottomY = (int) (y + bounds.y + bounds.height + vy) / 64;
+//
+//            if (!collisionWithTile(leftX, topY) &&
+//                    !collisionWithTile(rightX, topY) &&
+//                    !collisionWithTile(leftX, bottomY) &&
+//                    !collisionWithTile(rightX, bottomY)) {
                 x += vx;
                 y += vy;
-            }
+//            }
 
             // add code here to make tank flush against walls
             // for loop
@@ -90,6 +99,19 @@ public abstract class MovingObject extends Entity {
 
     public void rotateRight() {
         this.angle += this.ROTATION_SPEED;
+    }
+
+    public void checkAttacks(){
+        attackTimer += System.currentTimeMillis() - lastAttackTimer;
+        lastAttackTimer = System.currentTimeMillis();
+        if(attackTimer < attackCooldown)
+            return;
+
+        vx = (int) Math.round(DEFAULT_SPEED * Math.cos(Math.toRadians(angle))) * 8 - 32;
+        vy = (int) Math.round(DEFAULT_SPEED * Math.sin(Math.toRadians(angle))) * 8;
+        Bullet b = new Bullet(handler, x + vx + 25, y + vy - 8, vx, vy, angle);
+        handler.getWorld().getEntityManager().addEntity(b);
+        attackTimer = 0;
     }
 
     // barrier walls do not have to be collidable because this function takes care of that
@@ -119,6 +141,7 @@ public abstract class MovingObject extends Entity {
     }
 
     protected boolean collisionWithTile(int x, int y){
+
         return handler.getWorld().getTile(x, y).isSolid();
     }
 

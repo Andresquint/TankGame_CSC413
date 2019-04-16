@@ -13,12 +13,12 @@ public class IntroState extends State{
 
     @Override
     public void tick() {
-        if(handler.getTankControl1().space)
+        if(handler.getTankControl1().play)
             State.setState(handler.getGame().gameState);
     }
 
     @Override
     public void render(Graphics g) {
-        g.drawImage(Assets.intro, 300, 300, null);
+        g.drawImage(Assets.intro, 0, 0, null);
     }
 }

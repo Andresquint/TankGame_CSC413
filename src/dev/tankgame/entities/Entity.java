@@ -70,6 +70,17 @@ public abstract class Entity {
                 bounds.width, bounds.height);
     }
 
+    public Entity getEntityCollided(float xOffset, float yOffset){
+        for (Entity e : handler.getWorld().getEntityManager().getEntities()) {
+            if (e.equals(this))
+                continue;
+            if (e.getCollisionBounds(0,0).intersects(getCollisionBounds(xOffset, yOffset)))
+                return e;
+        }
+
+        return null;
+    }
+
     public float getX() {
         return x;
     }

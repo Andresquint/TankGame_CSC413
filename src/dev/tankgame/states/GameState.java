@@ -10,6 +10,8 @@ import dev.tankgame.tiles.Tile;
 import dev.tankgame.worlds.World;
 
 import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.nio.Buffer;
 
 public class GameState extends State{
     private World world;

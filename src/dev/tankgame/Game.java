@@ -6,6 +6,7 @@ import dev.tankgame.graphics.GameCamera;
 import dev.tankgame.input.TankControl;
 import dev.tankgame.states.GameState;
 import dev.tankgame.states.IntroState;
+import dev.tankgame.states.OverState;
 import dev.tankgame.states.State;
 
 import java.awt.*;
@@ -24,6 +25,7 @@ public class Game implements Runnable{
     // States
     public State gameState;
     public State introState;
+    public State overState;
 
     // Input
     private TankControl tc;
@@ -57,7 +59,8 @@ public class Game implements Runnable{
 
         gameState = new GameState(handler);
         introState = new IntroState(handler);
-        State.setState(gameState);
+        overState = new OverState(handler);
+        State.setState(introState);
 //        State.setState(introState);
     }
 
@@ -120,7 +123,7 @@ public class Game implements Runnable{
             }
 
             if (timer >= 1000000000){
-                System.out.println("Ticks and Frames: " + ticks);
+//                System.out.println("Ticks and Frames: " + ticks);
                 ticks = 0;
                 timer = 0;
             }
@@ -144,6 +147,10 @@ public class Game implements Runnable{
 
     public int getHeight() {
         return height;
+    }
+
+    public void setState(State state){
+        State.setState(state);
     }
 
     public synchronized void start(){

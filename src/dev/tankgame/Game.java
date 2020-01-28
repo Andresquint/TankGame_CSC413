@@ -74,8 +74,8 @@ public class Game implements Runnable{
         gameState = new GameState(handler);
         introState = new IntroState(handler);
         overState = new OverState(handler);
-        State.setState(introState);
 //        State.setState(introState);
+        State.setState(introState);
     }
 
     private void tick(){

@@ -1,11 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="csc413-tankgame-stephlsechrist:jar">
+  <artifact name="csc413-tankgame-stephlsechrist:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/csc413_tankgame_stephlsechrist_jar</output-path>
-    <root id="archive" name="csc413-tankgame-stephlsechrist.jar">
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/src/resources/META-INF/MANIFEST.MF" />
+    <root id="root">
+      <element id="archive" name="csc413-tankgame-stephlsechrist.jar">
+        <element id="module-output" name="csc413-tankgame-stephlsechrist" />
       </element>
-      <element id="module-output" name="csc413-tankgame-stephlsechrist" />
     </root>
   </artifact>
 </component>

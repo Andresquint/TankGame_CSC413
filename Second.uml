@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="924.6724637681159" y="1180.0">dev.tankgame.Launcher</node>
+    <node x="693.011423600555" y="208.0">dev.tankgame.graphics.Assets</node>
+    <node x="1001.6999310592794" y="208.0">dev.tankgame.input.TankControl</node>
+    <node x="748.9571376208332" y="515.0">dev.tankgame.tiles.WallTile</node>
+    <node x="176.08913043478265" y="416.0">dev.tankgame.entities.movingObjects.MovingObject</node>
+    <node x="754.011423600555" y="119.0">dev.tankgame.graphics.ImageLoader</node>
+    <node x="626.011423600555" y="119.0">dev.tankgame.graphics.SpriteSheet</node>
+    <node x="589.9571376208332" y="515.0">dev.tankgame.tiles.UnbreakableWall</node>
+    <node x="183.4001399566626" y="634.0">dev.tankgame.utils.Utils</node>
+    <node x="327.7821327706121" y="515.0">dev.tankgame.entities.movingObjects.Tank</node>
+    <node x="994.5404709541665" y="872.0">Display.Display</node>
+    <node x="731.3391304347826" y="634.0">dev.tankgame.tiles.Tile</node>
+    <node x="848.7415320669672" y="872.0">dev.tankgame.states.IntroState</node>
+    <node x="243.95713762083312" y="327.0">dev.tankgame.entities.movingObjects.Bullet</node>
+    <node x="906.3391304347826" y="991.0">dev.tankgame.Game</node>
+    <node x="1168.4041073178028" y="0.0">resources</node>
+    <node x="859.9571376208332" y="515.0">dev.tankgame.tiles.GrassTile</node>
+    <node x="716.8248654003006" y="753.0">dev.tankgame.states.State</node>
+    <node x="360.60250022923987" y="753.0">dev.tankgame.worlds.World</node>
+    <node x="129.6936182175321" y="0.0">dev.tankgame.entities.Entity</node>
+    <node x="440.3826086956522" y="1180.0">dev.tankgame.Handler</node>
+    <node x="28.53105066431135" y="119.0">dev.tankgame.entities.statics.StaticEntity</node>
+    <node x="483.35902196837037" y="872.0">dev.tankgame.states.GameState</node>
+    <node x="400.08913043478265" y="634.0">dev.tankgame.entities.EntityManager</node>
+    <node x="609.3590219683704" y="872.0">dev.tankgame.states.OverState</node>
+    <node x="83.08913043478265" y="208.0">dev.tankgame.entities.statics.Wall</node>
+    <node x="10.33935815392374" y="1259.0">dev.tankgame.entities.statics.MiniMap</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="dev.tankgame.states.IntroState" target="dev.tankgame.states.State">
+      <point x="0.0" y="-14.5" />
+      <point x="898.7415320669672" y="802.0" />
+      <point x="788.0748654003006" y="802.0" />
+      <point x="33.75" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.states.GameState" target="dev.tankgame.Handler">
+      <point x="-26.5" y="14.5" />
+      <point x="509.85902196837037" y="1060.0" />
+      <point x="493.20869565217396" y="1060.0" />
+      <point x="7.826086956521749" y="-14.5" />
+    </edge>
+    <edge source="dev.tankgame.Game" target="dev.tankgame.Handler">
+      <point x="6.583333333333371" y="14.5" />
+      <point x="952.422463768116" y="1140.0" />
+      <point x="524.5130434782609" y="1140.0" />
+      <point x="39.130434782608745" y="-14.5" />
+    </edge>
+    <edge source="dev.tankgame.states.State" target="dev.tankgame.Handler">
+      <point x="-3.75" y="14.5" />
+      <point x="750.5748654003006" y="852.0" />
+      <point x="770.2916996047431" y="852.0" />
+      <point x="770.2916996047431" y="1080.0" />
+      <point x="501.0347826086957" y="1080.0" />
+      <point x="15.652173913043498" y="-14.5" />
+    </edge>
+    <edge source="dev.tankgame.tiles.UnbreakableWall" target="dev.tankgame.tiles.Tile">
+      <point x="46.33333333333337" y="14.5" />
+      <point x="705.7904709541665" y="594.0" />
+      <point x="749.9502415458937" y="594.0" />
+      <point x="-14.888888888888914" y="-14.5" />
+    </edge>
+    <edge source="dev.tankgame.graphics.Assets" target="dev.tankgame.graphics.ImageLoader">
+      <point x="26.666666666666686" y="-14.5" />
+      <point x="759.6780902672217" y="188.0" />
+      <point x="813.011423600555" y="188.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.tiles.Tile" target="dev.tankgame.tiles.WallTile">
+      <point x="-7.444444444444457" y="-14.5" />
+      <point x="757.3946859903382" y="564.0" />
+      <point x="764.1238042874998" y="564.0" />
+      <point x="-30.333333333333343" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.statics.StaticEntity" target="dev.tankgame.Handler">
+      <point x="0.0" y="14.5" />
+      <point x="82.03105066431135" y="188.0" />
+      <point x="42.0130434782609" y="188.0" />
+      <point x="42.0130434782609" y="1140.0" />
+      <point x="450.16521739130434" y="1140.0" />
+      <point x="-35.21739130434787" y="-14.5" />
+    </edge>
+    <edge source="dev.tankgame.states.OverState" target="dev.tankgame.states.State">
+      <point x="0.0" y="-14.5" />
+      <point x="659.3590219683704" y="842.0" />
+      <point x="735.5748654003006" y="842.0" />
+      <point x="-18.75" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.EntityManager" target="dev.tankgame.entities.movingObjects.Tank">
+      <point x="-46.5" y="-14.5" />
+      <point x="415.58913043478265" y="604.0" />
+      <point x="372.7821327706121" y="604.0" />
+      <point x="9.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.movingObjects.Bullet" target="dev.tankgame.graphics.Assets">
+      <point x="9.75" y="-14.5" />
+      <point x="292.7071376208331" y="257.0" />
+      <point x="698.011423600555" y="257.0" />
+      <point x="-35.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.worlds.World" target="dev.tankgame.entities.statics.Wall">
+      <point x="-22.857142857142833" y="-14.5" />
+      <point x="377.74535737209703" y="723.0" />
+      <point x="264.9001399566626" y="723.0" />
+      <point x="264.9001399566626" y="584.0" />
+      <point x="112.58913043478265" y="584.0" />
+      <point x="112.58913043478265" y="307.0" />
+      <point x="119.08913043478265" y="307.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.EntityManager" target="dev.tankgame.Handler">
+      <point x="49.60000000000002" y="14.5" />
+      <point x="511.68913043478267" y="723.0" />
+      <point x="455.0155437075008" y="723.0" />
+      <point x="455.0155437075008" y="1040.0" />
+      <point x="489.2956521739131" y="1040.0" />
+      <point x="3.9130434782608745" y="-14.5" />
+    </edge>
+    <edge source="dev.tankgame.Game" target="dev.tankgame.states.GameState">
+      <point x="-35.90909090909088" y="-14.5" />
+      <point x="909.9300395256918" y="961.0" />
+      <point x="562.8590219683704" y="961.0" />
+      <point x="26.5" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.tiles.GrassTile" target="dev.tankgame.graphics.Assets">
+      <point x="0.0" y="-14.5" />
+      <point x="907.4571376208332" y="277.0" />
+      <point x="748.011423600555" y="277.0" />
+      <point x="15.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.movingObjects.Tank" target="dev.tankgame.Handler">
+      <point x="-27.0" y="14.5" />
+      <point x="336.7821327706121" y="614.0" />
+      <point x="172.9001399566626" y="614.0" />
+      <point x="172.9001399566626" y="1100.0" />
+      <point x="465.81739130434784" y="1100.0" />
+      <point x="-19.565217391304373" y="-14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.movingObjects.Bullet" target="dev.tankgame.entities.Entity">
+      <point x="-9.75" y="-14.5" />
+      <point x="273.2071376208331" y="79.0" />
+      <point x="189.1936182175321" y="79.0" />
+      <point x="21.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.movingObjects.MovingObject" target="dev.tankgame.entities.Entity">
+      <point x="-51.25" y="-14.5" />
+      <point x="186.33913043478265" y="386.0" />
+      <point x="209.08213762083312" y="386.0" />
+      <point x="209.08213762083312" y="99.0" />
+      <point x="175.1936182175321" y="99.0" />
+      <point x="7.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.movingObjects.Bullet" target="dev.tankgame.Handler">
+      <point x="19.5" y="14.5" />
+      <point x="302.4571376208331" y="396.0" />
+      <point x="309.58913043478265" y="396.0" />
+      <point x="309.58913043478265" y="604.0" />
+      <point x="168.98709647840172" y="604.0" />
+      <point x="168.98709647840172" y="1110.0" />
+      <point x="461.90434782608696" y="1110.0" />
+      <point x="-23.478260869565247" y="-14.5" />
+    </edge>
+    <edge source="dev.tankgame.Game" target="Display.Display">
+      <point x="7.18181818181813" y="-14.5" />
+      <point x="953.0209486166008" y="931.0" />
+      <point x="1016.2904709541665" y="931.0" />
+      <point x="-21.75" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.tiles.WallTile" target="dev.tankgame.tiles.Tile">
+      <point x="30.333333333333314" y="14.5" />
+      <point x="824.7904709541665" y="584.0" />
+      <point x="772.2835748792271" y="584.0" />
+      <point x="7.444444444444457" y="-14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.movingObjects.Bullet" target="dev.tankgame.entities.movingObjects.Tank">
+      <point x="32.5" y="14.5" />
+      <point x="315.4571376208331" y="396.0" />
+      <point x="369.7821327706121" y="396.0" />
+      <point x="6.0" y="-14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.EntityManager" target="dev.tankgame.entities.Entity">
+      <point x="46.5" y="-14.5" />
+      <point x="508.58913043478265" y="614.0" />
+      <point x="501.08913043478265" y="614.0" />
+      <point x="501.08913043478265" y="59.0" />
+      <point x="203.1936182175321" y="59.0" />
+      <point x="35.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.statics.MiniMap" target="dev.tankgame.Handler">
+      <point x="31.66666666666663" y="-14.5" />
+      <point x="89.50602482059037" y="1239.0" />
+      <point x="485.3826086956522" y="1239.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.movingObjects.MovingObject" target="dev.tankgame.Handler">
+      <point x="-41.0" y="14.5" />
+      <point x="196.58913043478265" y="495.0" />
+      <point x="220.48709647840172" y="495.0" />
+      <point x="220.48709647840172" y="594.0" />
+      <point x="88.75061588170269" y="594.0" />
+      <point x="88.75061588170269" y="1120.0" />
+      <point x="457.9913043478261" y="1120.0" />
+      <point x="-27.39130434782612" y="-14.5" />
+    </edge>
+    <edge source="dev.tankgame.graphics.Assets" target="dev.tankgame.graphics.SpriteSheet">
+      <point x="-26.666666666666686" y="-14.5" />
+      <point x="706.3447569338883" y="188.0" />
+      <point x="653.011423600555" y="188.0" />
+      <point x="-27.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.Handler" target="dev.tankgame.Game">
+      <point x="27.39130434782612" y="-14.5" />
+      <point x="512.7739130434784" y="1110.0" />
+      <point x="912.922463768116" y="1110.0" />
+      <point x="-32.91666666666663" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.Handler" target="dev.tankgame.input.TankControl">
+      <point x="43.043478260869506" y="-14.5" />
+      <point x="528.4260869565217" y="1160.0" />
+      <point x="1117.4041073178028" y="1160.0" />
+      <point x="1117.4041073178028" y="277.0" />
+      <point x="1104.3665977259461" y="277.0" />
+      <point x="46.66666666666663" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.Game" target="dev.tankgame.input.TankControl">
+      <point x="28.727272727272805" y="-14.5" />
+      <point x="974.5664031620554" y="961.0" />
+      <point x="1099.2222891359845" y="961.0" />
+      <point x="1099.2222891359845" y="297.0" />
+      <point x="1067.0332643926129" y="297.0" />
+      <point x="9.333333333333371" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.states.OverState" target="dev.tankgame.Handler">
+      <point x="-25.0" y="14.5" />
+      <point x="634.3590219683704" y="1070.0" />
+      <point x="497.12173913043483" y="1070.0" />
+      <point x="11.739130434782624" y="-14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.movingObjects.Bullet" target="dev.tankgame.input.TankControl">
+      <point x="29.25" y="-14.5" />
+      <point x="312.2071376208331" y="297.0" />
+      <point x="1011.0332643926129" y="297.0" />
+      <point x="-46.66666666666667" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.movingObjects.Tank" target="dev.tankgame.graphics.Assets">
+      <point x="18.0" y="-14.5" />
+      <point x="381.7821327706121" y="485.0" />
+      <point x="556.9571376208331" y="485.0" />
+      <point x="556.9571376208331" y="267.0" />
+      <point x="708.011423600555" y="267.0" />
+      <point x="-25.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.Entity" target="dev.tankgame.Handler">
+      <point x="-35.0" y="14.5" />
+      <point x="133.1936182175321" y="49.0" />
+      <point x="0.0" y="49.0" />
+      <point x="0.0" y="1160.0" />
+      <point x="442.3391304347826" y="1160.0" />
+      <point x="-43.04347826086962" y="-14.5" />
+    </edge>
+    <edge source="dev.tankgame.Handler" target="dev.tankgame.worlds.World">
+      <point x="-3.9130434782608745" y="-14.5" />
+      <point x="481.46956521739133" y="1060.0" />
+      <point x="393.1387321132979" y="1060.0" />
+      <point x="393.1387321132979" y="852.0" />
+      <point x="407.26916689590655" y="852.0" />
+      <point x="6.666666666666686" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.movingObjects.Tank" target="dev.tankgame.input.TankControl">
+      <point x="30.0" y="-14.5" />
+      <point x="393.7821327706121" y="495.0" />
+      <point x="1013.2415320669672" y="495.0" />
+      <point x="1013.2415320669672" y="307.0" />
+      <point x="1029.6999310592794" y="307.0" />
+      <point x="-28.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.movingObjects.Bullet" target="dev.tankgame.entities.statics.Wall">
+      <point x="-29.25" y="-14.5" />
+      <point x="253.70713762083312" y="307.0" />
+      <point x="143.08913043478265" y="307.0" />
+      <point x="24.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.statics.MiniMap" target="dev.tankgame.entities.statics.StaticEntity">
+      <point x="-31.66666666666663" y="-14.5" />
+      <point x="26.17269148725711" y="1239.0" />
+      <point x="20.013043478260897" y="1239.0" />
+      <point x="20.013043478260897" y="168.0" />
+      <point x="39.2310506643114" y="168.0" />
+      <point x="-42.799999999999955" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.states.GameState" target="dev.tankgame.states.State">
+      <point x="13.25" y="-14.5" />
+      <point x="549.6090219683704" y="822.0" />
+      <point x="720.5748654003006" y="822.0" />
+      <point x="-33.75" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.Game" target="dev.tankgame.states.State">
+      <point x="-14.363636363636374" y="-14.5" />
+      <point x="931.4754940711463" y="931.0" />
+      <point x="788.8865612648221" y="931.0" />
+      <point x="788.8865612648221" y="822.0" />
+      <point x="773.0748654003006" y="822.0" />
+      <point x="18.75" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.states.GameState" target="dev.tankgame.worlds.World">
+      <point x="-13.25" y="-14.5" />
+      <point x="523.1090219683704" y="842.0" />
+      <point x="433.93583356257324" y="842.0" />
+      <point x="33.33333333333337" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.worlds.World" target="dev.tankgame.entities.movingObjects.Tank">
+      <point x="-11.428571428571388" y="-14.5" />
+      <point x="389.58913043478265" y="614.0" />
+      <point x="354.7821327706121" y="614.0" />
+      <point x="-9.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.states.IntroState" target="dev.tankgame.Handler">
+      <point x="-25.0" y="14.5" />
+      <point x="873.7415320669672" y="971.0" />
+      <point x="824.3865612648221" y="971.0" />
+      <point x="824.3865612648221" y="1100.0" />
+      <point x="508.86086956521746" y="1100.0" />
+      <point x="23.478260869565247" y="-14.5" />
+    </edge>
+    <edge source="dev.tankgame.Launcher" target="dev.tankgame.Game">
+      <point x="-23.75" y="-14.5" />
+      <point x="948.4224637681159" y="1150.0" />
+      <point x="965.5891304347826" y="1150.0" />
+      <point x="19.75" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.movingObjects.Tank" target="dev.tankgame.entities.Entity">
+      <point x="-30.0" y="-14.5" />
+      <point x="333.7821327706121" y="485.0" />
+      <point x="165.58913043478265" y="485.0" />
+      <point x="165.58913043478265" y="99.0" />
+      <point x="168.1936182175321" y="99.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.worlds.World" target="dev.tankgame.Handler">
+      <point x="-20.0" y="14.5" />
+      <point x="380.60250022923987" y="842.0" />
+      <point x="385.31264515677617" y="842.0" />
+      <point x="385.31264515677617" y="1080.0" />
+      <point x="473.6434782608696" y="1080.0" />
+      <point x="-11.739130434782624" y="-14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.movingObjects.Bullet" target="dev.tankgame.entities.movingObjects.MovingObject">
+      <point x="6.5" y="14.5" />
+      <point x="51.25" y="-14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.statics.Wall" target="dev.tankgame.Handler">
+      <point x="-24.0" y="14.5" />
+      <point x="95.08913043478265" y="307.0" />
+      <point x="55.219565217391334" y="307.0" />
+      <point x="55.219565217391334" y="1130.0" />
+      <point x="454.0782608695652" y="1130.0" />
+      <point x="-31.304347826086996" y="-14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.statics.StaticEntity" target="dev.tankgame.entities.Entity">
+      <point x="26.75" y="-14.5" />
+      <point x="108.78105066431135" y="79.0" />
+      <point x="154.1936182175321" y="79.0" />
+      <point x="-14.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.states.OverState" target="dev.tankgame.graphics.Assets">
+      <point x="-33.33333333333337" y="-14.5" />
+      <point x="626.025688635037" y="812.0" />
+      <point x="579.4571376208331" y="812.0" />
+      <point x="579.4571376208331" y="277.0" />
+      <point x="718.011423600555" y="277.0" />
+      <point x="-15.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.worlds.World" target="dev.tankgame.entities.EntityManager">
+      <point x="0.0" y="-14.5" />
+      <point x="400.60250022923987" y="683.0" />
+      <point x="412.4891304347826" y="683.0" />
+      <point x="-49.60000000000002" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.tiles.GrassTile" target="dev.tankgame.tiles.Tile">
+      <point x="0.0" y="14.5" />
+      <point x="907.4571376208332" y="604.0" />
+      <point x="787.1724637681159" y="604.0" />
+      <point x="22.333333333333314" y="-14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.movingObjects.MovingObject" target="dev.tankgame.entities.movingObjects.Bullet">
+      <point x="-10.25" y="-14.5" />
+      <point x="227.33913043478265" y="376.0" />
+      <point x="250.45713762083312" y="376.0" />
+      <point x="-32.5" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.states.IntroState" target="dev.tankgame.graphics.Assets">
+      <point x="33.33333333333337" y="-14.5" />
+      <point x="932.0748654003007" y="852.0" />
+      <point x="965.4571376208332" y="852.0" />
+      <point x="965.4571376208332" y="267.0" />
+      <point x="758.011423600555" y="267.0" />
+      <point x="25.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.Game" target="dev.tankgame.states.IntroState">
+      <point x="-7.18181818181813" y="-14.5" />
+      <point x="938.6573122529645" y="921.0" />
+      <point x="923.7415320669672" y="921.0" />
+      <point x="25.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.tiles.Tile" target="dev.tankgame.tiles.UnbreakableWall">
+      <point x="-29.77777777777777" y="-14.5" />
+      <point x="735.0613526570048" y="614.0" />
+      <point x="613.1238042874999" y="614.0" />
+      <point x="-46.333333333333314" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.Game" target="dev.tankgame.graphics.Assets">
+      <point x="0.0" y="-14.5" />
+      <point x="945.8391304347826" y="921.0" />
+      <point x="984.0404709541665" y="921.0" />
+      <point x="984.0404709541665" y="257.0" />
+      <point x="768.011423600555" y="257.0" />
+      <point x="35.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.tiles.Tile" target="dev.tankgame.tiles.GrassTile">
+      <point x="14.888888888888914" y="-14.5" />
+      <point x="779.7280193236716" y="594.0" />
+      <point x="875.7904709541665" y="594.0" />
+      <point x="-31.666666666666686" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.Game" target="dev.tankgame.states.OverState">
+      <point x="-28.727272727272748" y="-14.5" />
+      <point x="917.1118577075099" y="951.0" />
+      <point x="684.3590219683704" y="951.0" />
+      <point x="25.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.worlds.World" target="dev.tankgame.utils.Utils">
+      <point x="-34.28571428571428" y="-14.5" />
+      <point x="366.3167859435256" y="733.0" />
+      <point x="218.9001399566626" y="733.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.statics.Wall" target="dev.tankgame.entities.Entity">
+      <point x="24.0" y="-14.5" />
+      <point x="143.08913043478265" y="188.0" />
+      <point x="157.98913043478262" y="188.0" />
+      <point x="157.98913043478262" y="89.0" />
+      <point x="161.1936182175321" y="89.0" />
+      <point x="-7.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.tiles.UnbreakableWall" target="dev.tankgame.graphics.Assets">
+      <point x="0.0" y="-14.5" />
+      <point x="659.4571376208332" y="287.0" />
+      <point x="728.011423600555" y="287.0" />
+      <point x="-5.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.worlds.World" target="dev.tankgame.tiles.Tile">
+      <point x="34.28571428571428" y="-14.5" />
+      <point x="434.88821451495414" y="733.0" />
+      <point x="764.8391304347826" y="733.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.statics.Wall" target="dev.tankgame.entities.statics.StaticEntity">
+      <point x="0.0" y="-14.5" />
+      <point x="119.08913043478265" y="188.0" />
+      <point x="124.83105066431142" y="188.0" />
+      <point x="42.80000000000007" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.tiles.WallTile" target="dev.tankgame.graphics.Assets">
+      <point x="0.0" y="-14.5" />
+      <point x="794.4571376208332" y="287.0" />
+      <point x="738.011423600555" y="287.0" />
+      <point x="5.0" y="14.5" />
+    </edge>
+    <edge source="dev.tankgame.entities.movingObjects.Tank" target="dev.tankgame.entities.movingObjects.MovingObject">
+      <point x="-6.0" y="-14.5" />
+      <point x="357.7821327706121" y="465.0" />
+      <point x="278.58913043478265" y="465.0" />
+      <point x="41.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="671.6363636363636" y="1075.0606060606062" />
+  <SelectedNodes>
+    <node>dev.tankgame.Launcher</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
